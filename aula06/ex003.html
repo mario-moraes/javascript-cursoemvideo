@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soma de números</title>
+    <style>
+       
+        html {
+            background-image: linear-gradient(to bottom, rgb(183, 40, 183), rgb(102, 21, 102));
+            width: 100vw;
+            height: 100vh;
+        }
+        main {
+            background-color: rgba(255, 255, 255, 0.868);
+            font-family: Arial, Helvetica, sans-serif;
+            width: 400px;
+            height: 700px;
+            margin: auto;
+            border-radius: 15px;
+            box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.383);
+        }
+        p, h1 {
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Tratamento de dados</h1>
+        <p>
+            Insira o número, insira um segundo número e por fim receba o valor da soma entre eles.
+        </p>
+        <script>
+            var n1 = Number(window.prompt("Insira um número"))
+            var n2 = Number(window.prompt("Insira outro número"))
+            var s = n1 + n2
+            window.alert(`A soma entre ${n1} e ${n2} é igual a ${s}!`)
+        </script>
+    </main>
+</body>
+</html>
