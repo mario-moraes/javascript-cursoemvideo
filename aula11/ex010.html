@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio país</title>
+</head>
+
+<body>
+    <h1>Descubra sua nacionalidade</h1> 
+    <p>Digite o país onde você mora e saiba qual sua nacionalidade!</p>
+    <input type="text" name="pais" id="pais">
+    <input type="button" value="descobrir" onclick="nacional()">
+    <div id="resultado"></div>
+    <script>
+        function nacional() {
+            var nac = document.getElementById("pais").value;
+            if (nac === "brasil") {
+                resultado.innerText = "Você é um brasileiro";
+            }
+            else {
+                resultado.innerText = "Você é um estrangeiro";
+            }
+        }
+    </script>
+</body>
+</html>
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Condições em JS</title>
+</head>
+
+<body>
+    <h1>Você será multado?</h1>
+    <p>
+        Aqui você descobrirá se está acima ou abaixo do limite de velocidade permitido pela via.
+    </p>
+        <input type="number" name="vel" id="vel" placeholder="digite aqui">
+        <input type="button" value="Verificar" onclick="multa()">
+    <div id="velocidade"> 
+    </div>
+
+    <script>
+        function multa() {
+            var vel = Number(document.getElementById("vel").value);
+                if(vel > 60) {
+                    velocidade.innerText = "Você ultrapassou o limite. Multado!";
+                }
+                else {
+                    velocidade.innerText = "Siga em frente e uso o cinto cabron";
+                }
+        }
+    </script>
+
+</body>
+
+</html> -->
