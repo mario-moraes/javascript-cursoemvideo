@@ -1,2 +1,2 @@
 # javascript-cursoemvideo
- javascript e ecmascript do cursoemvideo
+exercices (ecmascript6 course)
